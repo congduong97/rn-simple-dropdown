@@ -1,0 +1,20 @@
+{
+  "name": "rn-simple-dropdown",
+  "version": "1.0.0",
+  "description": "Simple dropdown",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native-dropdown",
+    "rn-dropdown",
+    "rn-simple-dropdown"
+  ],
+  "author": "cong_17",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "18.0.0",
+    "react-native": "0.69.0"
+  }
+}

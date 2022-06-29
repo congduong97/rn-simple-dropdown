@@ -1,6 +1,6 @@
 {
   "name": "rn-simple-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple dropdown",
   "main": "index.tsx",
   "scripts": {
@@ -16,5 +16,16 @@
   "peerDependencies": {
     "react": "18.0.0",
     "react-native": "0.69.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congduong97/rn-simple-dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/congduong97/rn-simple-dropdown/issues"
+  },
+  "homepage": "https://github.com/congduong97/rn-simple-dropdown#readme",
+  "directories": {
+    "example": "example"
   }
 }

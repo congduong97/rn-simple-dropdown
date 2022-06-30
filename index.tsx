@@ -30,7 +30,7 @@ import {
     placeholder?: string;
     onChange: (item: DropdownItemProps) => void;
     style?: StyleProp<ViewStyle> | undefined;
-    listContainer?: StyleProp<ViewStyle> | undefined;
+    listContainerStyle?: StyleProp<ViewStyle> | undefined;
     activeColor?: string;
     renderViewItem?: (
       item: DropdownItemProps,
@@ -57,7 +57,7 @@ import {
       placeholder,
       onChange,
       style,
-      listContainer,
+      listContainerStyle,
       activeColor,
       renderViewItem,
       icon,
@@ -148,7 +148,7 @@ import {
                 styles.listItem,
                 {top: layout?.height - 1, borderTopWidth: 0},
                 {maxHeight: maxHeightList},
-                listContainer,
+                listContainerStyle,
               ]}>
               <ScrollView contentContainerStyle={[{flexGrow: 1}, scrollStyle]}>
                 {data?.map((item, index) => {

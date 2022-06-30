@@ -40,8 +40,33 @@ or
 ```
 
 ## Props ##
-| name  | type  | default  | description  |
+| name  | type | default | description  |
 | ------- | ------- | ------- | ------- |
 | data  | **require** Array<{key:string\|numner, label:string\|number}>    | undefined     |       list data       |
 | initValue | {key:string\|numner, label:string\|number}| undefined  |initial initialized value|
 |  placeholder | string | undefined |    The string that will be rendered before dropdown has been selected  |
+| onChange | function | (val) => void | Callback that is called when the value be changed. |
+| style | ViewStyle | null | Style is applied to dropdown |
+| listContainerStyle | ViewStyle | null | Style is applied to container of list |
+| activeColor | string | '#f5f5f5'| backgroundcolor of active item |
+| renderViewItem | function | (item, activeItem) => JSX.Element \| undefined | Custom item function |
+| icon | View | any | right icon on dropdown |
+| overlayColor | string | 'transparent' | color of backdrop |
+| maxHeightList | number | undefined | max height to set list data can scroll |
+| scrollStyle | ViewStyle | undefined | style apply to scrollview of list data |
+| textStyle | TextStyle | undefined | style apply to text value in dropdown |
+| placeholderStyle | TextStyle | undefined | style aplly to placerholder text |
+| red | Ref | undefined | Reference of dropdown |
+
+### Method ##
+| name  | description  |
+| ------- | ------- |
+| open() | Open dropdown |
+| close() | Close dropdown |
+| getValue() | get value of selected item |
+| setValue(item)| set value for dropdown |
+
+## Next version ##
+
+Looking forward to your constructive comments and suggestions
+

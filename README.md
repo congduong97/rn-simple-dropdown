@@ -56,7 +56,7 @@ or
 | scrollStyle | ViewStyle | undefined | style apply to scrollview of list data |
 | textStyle | TextStyle | undefined | style apply to text value in dropdown |
 | placeholderStyle | TextStyle | undefined | style aplly to placerholder text |
-| red | Ref | undefined | Reference of dropdown |
+| ref | Ref | undefined | Reference of dropdown |
 
 ### Method ##
 | name  | description  |
